@@ -1,0 +1,19 @@
+.h{
+  color: blue;
+  border: 5px solid rgb(245,6,130);
+  background-color: aqua;
+  width: fit-content;
+  border-radius:10px;
+}
+
+.emoji-display {
+  font-size: 5rem;
+  margin: 20px 0;
+}
+
+.emoji-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
