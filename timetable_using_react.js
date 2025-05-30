@@ -1,0 +1,163 @@
+import React, { useState } from 'react';
+import './App.css';
+function App() {
+ return(
+<>
+<center>
+  <h1>time table</h1>
+  <table border='1' cellPadding='10' cellSpacing='0'>
+   <tr>
+    <th>
+      day
+    </th>
+    <th>
+      9:00-10:00
+    </th>
+    <th>
+      10:00-11:00
+    </th>
+    <th>
+      11:00-12:00
+    </th>
+    <th>
+      12:00-1:00
+    </th>
+    <th>
+      1:00-2:00
+    </th>
+    <th>
+      2:00-3:00
+    </th>
+    <th>
+      3:00-4:00
+    </th>
+   </tr>
+   <tr>
+    <th>
+      monday
+    </th>
+    <th>
+      os
+    </th>
+    <th>
+      ds
+    </th>
+    <th>
+      se
+    </th>
+    <th rowSpan={6}>
+      break
+    </th>
+    <th>
+      es
+    </th>
+    <th>
+      dbms
+    </th>
+    <th>
+      ps
+    </th>
+   </tr>
+   <tr>
+    <th>
+      tuesday
+    </th>
+    <th>
+      ds
+    </th>
+    <th colSpan={2}>
+    dbms lab
+    </th>
+    <th>
+     ds
+    </th>
+    <th>
+      os
+    </th>
+    <th>
+      es
+    </th>
+   </tr>
+   <tr>
+    <th>
+      wednesday
+    </th>
+    <th>
+      dld
+    </th>
+    <th>
+      mefa
+    </th>
+    <th>
+      os
+    </th>
+    <th colSpan={3}>
+      fullstack java
+    </th>
+   </tr>
+   <tr>
+    <th>
+      thursday
+    </th>
+    <th>
+      dld
+    </th>
+    <th>
+      mefa
+    </th>
+    <th>
+      os
+    </th>
+    <th>
+      ds
+    </th>
+    <th>
+    es
+    </th>
+    <th>
+      fullstack java
+    </th>
+   </tr>
+   <tr>
+    <th>
+      friday
+    </th>
+    <th colSpan={2}>
+   os lab
+    </th>
+    <th>
+      ps
+    </th>
+    <th>
+      se
+    </th>
+    <th>'
+      ps
+    </th>
+    <th>
+    mefa
+    </th>
+   </tr>
+   <tr>
+    <th>
+      saturday
+    </th>
+    <th>
+      ds
+    </th>
+    <th>
+      os
+    </th>
+    <th>
+      se
+    </th>
+    <th colSpan={3}>
+      activities
+    </th>
+   </tr>
+</table>
+</center>
+</>
+ );
+}
+export default App;
